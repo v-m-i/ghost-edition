@@ -36,3 +36,7 @@
 .share-link-twitter {
     background-color: var(--twitter-color);
 }
+
+.share-link-linkedin {
+    background-color: #0077b5;
+}
