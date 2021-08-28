@@ -58,14 +58,11 @@
 
             <div class="single-footer-middle">
                 <div class="single-footer-top">
-                    <h3 class="single-footer-title">Published by</h3>
                     <div class="author-list">
                         {{#foreach authors}}
-                            <div class="author-image-placeholder u-placeholder square">
-                                <a href="https://vedran.tech/contact/" title="{{name}}">
-                                    <img class="author-image u-object-fit" src="{{img_url profile_image size="xs"}}" alt="{{name}}" loading="lazy">
-                                </a>
-                            </div>
+                            <a href="https://vedran.tech/contact/" title="{{name}}">
+                                <h3 class="single-footer-title">{{name}}</h3>
+                            </a>
                         {{/foreach}}
                     </div>
                 </div>
