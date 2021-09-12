@@ -13,15 +13,9 @@
         </header>
 
         <div class="post-feed expanded container medium">
-            {{^unless @member}}
-                {{#foreach posts}}
-                    {{> "loop"}}
-                {{/foreach}}
-            {{else}}
-                {{#foreach posts}}
-                    {{> "loop"}}
-                {{/foreach}}
-            {{/unless}}
+            {{#foreach posts}}
+                {{> "loop"}}
+            {{/foreach}}
         </div>
 
         {{pagination}}
